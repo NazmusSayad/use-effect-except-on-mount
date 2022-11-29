@@ -12,6 +12,7 @@ const useEffectExceptOnMount = (effect: Function, dependencies: any[]) => {
     }
   }, dependencies)
 
+  // @ts-ignore
   useEffect(() => {
     return () => (mounted.current = false)
   }, [])
