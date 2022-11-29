@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "skipLibCheck": true,
+    "lib": ["esnext", "dom", "webworker"],
+    "declaration": true,
+    "inlineSourceMap": false,
+    "strict": true,
+    "pretty": true,
+    "removeComments": true
+  }
+}

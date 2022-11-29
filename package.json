@@ -1,0 +1,36 @@
+{
+  "name": "use-effect-except-on-mount",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist-mjs/index.js",
+  "scripts": {
+    "dev": "npm-ez dev",
+    "build": "npm-ez build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazmusSayad/use-effect-except-on-mount.git"
+  },
+  "keywords": [],
+  "author": "NazmusSayad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazmusSayad/use-effect-except-on-mount/issues"
+  },
+  "homepage": "https://github.com/NazmusSayad/use-effect-except-on-mount#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "npm-ez": "latest",
+    "@types/react": "^18.0.25",
+    "typescript": "^4.9.3"
+  },
+  "types": "./dist-mjs/index.d.js",
+  "exports": {
+    ".": {
+      "require": "./dist-cjs/index.js",
+      "import": "./dist-mjs/index.js"
+    }
+  }
+}
